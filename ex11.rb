@@ -1,0 +1,14 @@
+print "How old are you? "
+age = gets.chomp()
+print "How tall are you? "
+height = gets.chomp() 
+print "How much do you weigh? "
+weight = gets.chomp() 
+
+puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
+
+# using gets and chomp again
+print "What is your name? "
+name = gets.chomp()
+ 
+ puts "Hello " + name + " How are you? "
